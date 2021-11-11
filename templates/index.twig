@@ -2,27 +2,26 @@
 
 {% block title %}Home{% endblock %}
 
-	{% block content %}
-<div class="row">
-	<div class="col-md-8">
-		<div class="panel panel-default">
-			<div class="panel-heading">Featured Videos</div>
-			<div class="panel-body">
-				{% for video in videos %}
-					{{ video_box(video) }}
-				{% else %}
-					<p>No uploaded videos. :'(</p>
-				{% endfor %}
+	{% block precontent %}
+<div class="main-content">
+	<div class="container">
+		<div class="grid">
+			<div class="col-md-12 center">
+				<h1>Finalium Preview</h1>
+				<p>squareBracket's framework, by Gamerappa</p>
+				<a class="button button-warning button-large">Get started</a>
 			</div>
 		</div>
 	</div>
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">Latest News</div>
-			<div class="panel-body">
-				some stuff here idk
-			</div>
-		</div>
+</div>
+
+	{% endblock %}
+
+	{% block content %}
+<div class="grid">
+	<div class="col-md-12 center">
+		<h1>This is a placeholder.</h1>
+		<p>We'll add more shit in here later</p>
 	</div>
 </div>
 

@@ -1,11 +1,12 @@
 {
 	"require": {
-		"twig/twig": "^3.0"
+		"twig/twig": "^3.0",
+		"scssphp/scssphp": "1.8.1"
 	},
 	"minimum-stability": "dev",
 	"config": {
 		"platform": {
-			"php": "7.3"
+			"php": "8.0"
 		}
 	}
 }
