@@ -10,3 +10,5 @@ echo "Compiling Finalium CSS"
 php ${pscss_path} ${common_arguments} assets/scss/style.scss > assets/css/style.css
 echo "Compiling Finalium Dark CSS"
 php ${pscss_path} ${common_arguments} assets/scss/darkmode.scss > assets/css/darkmode.css
+echo "Compiling Finalium Docs CSS"
+php ${pscss_path} ${common_arguments} assets/scss_docs/docs.scss > assets/css/docs.css

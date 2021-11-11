@@ -1,0 +1,38 @@
+{% extends "_layout.twig" %}
+
+{% block title %}Home{% endblock %}
+
+	{% block precontent %}
+<div class="main-content">
+	<div class="container">
+		<div class="grid">
+			<div class="col-md-12">
+				<h1>Components</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+	{% endblock %}
+
+	{% block content %}
+<div class="grid">
+	<div class="col-md-12">
+		<h1>Buttons</h1>
+		<form class="example">
+			<a href="#" class="button button-neutral" role="button">Link</a> 
+			<button class="button button-neutral" type="submit">Button</button> 
+			<input class="button button-neutral" type="button" value="Input"> 
+			<input class="button button-neutral" type="submit" value="Submit">
+		</form>
+		<div class="example code">
+		<pre><code data-lang="html">
+<span><</span>a href="#" class="button button-neutral" role="button">Link<span><</span>/a> 
+<span><</span>button class="button button-neutral" type="submit">Button<span><</span>/button> 
+<span><</span>input class="button button-neutral" type="button" value="Input"> 
+<span><</span>input class="button button-neutral" type="submit" value="Submit">
+		</code></pre>
+	</div></div>
+</div>
+
+	{% endblock %}
